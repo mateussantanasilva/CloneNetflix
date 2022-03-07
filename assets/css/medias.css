@@ -1,0 +1,49 @@
+@media (min-width: 600px) and (max-width: 1000px) {
+    header div.container{
+        flex-direction: column;
+    }
+    #menu-nav{
+        margin-top: 1rem;
+    }
+
+    #logo-poderoso-chefao{
+        width: 30%;
+    }
+    #descricao-filme-principal{
+        width: 50%;
+    }
+    #buttons{
+        width: 50%;
+    }
+
+    footer .container{
+        text-align: center;
+    }
+    #social-media{
+        justify-content: center;
+        align-items: center;
+    }
+    #colums-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 599px){
+    header div.container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu-nav a{
+        margin-top: 1rem;
+    }
+
+    #logo-poderoso-chefao, #descricao-filme-principal, #buttons{
+        width: 60%;
+    }
+}
